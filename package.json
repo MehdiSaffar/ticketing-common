@@ -1,12 +1,22 @@
 {
-  "name": "@mehdi-ticketing/common",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "@mehdisaffar/ticketing-common",
+    "repository": "git://github.com/MehdiSaffar/ticketing-common.git",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "files": [
+        "build/**/*"
+    ],
+    "scripts": {
+        "clean": "del ./build/*",
+        "build": "npm run clean && tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "del-cli": "^4.0.1",
+        "typescript": "^4.3.5"
+    }
 }
