@@ -1,7 +1,7 @@
 {
     "name": "@mehdisaffar/ticketing-common",
     "repository": "git://github.com/MehdiSaffar/ticketing-common.git",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
