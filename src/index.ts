@@ -24,3 +24,5 @@ export * from './events/subjects'
 export * from './events/types/order-status'
 
 export * from './events/expiration-complete-event'
+
+export * from './events/payment-created-event'
